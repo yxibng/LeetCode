@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		867D6C84276CDEE80035EE3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C83276CDEE80035EE3A /* AppDelegate.m */; };
 		867D6C87276CDEE80035EE3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C86276CDEE80035EE3A /* ViewController.m */; };
 		867D6C89276CDEE90035EE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867D6C88276CDEE90035EE3A /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		867D6C7F276CDEE80035EE3A /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D6C82276CDEE80035EE3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		867D6C83276CDEE80035EE3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				867D6C9B276CDEFF0035EE3A /* LeetCodeTests.m */,
 				867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */,
+				86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
+				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

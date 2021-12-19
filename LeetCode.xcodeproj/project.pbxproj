@@ -16,6 +16,9 @@
 		867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C9B276CDEFF0035EE3A /* LeetCodeTests.m */; };
 		867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */ = {isa = PBXBuildFile; fileRef = 867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */; };
 		86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DB276ECD76009EB4D9 /* QuickSort.mm */; };
+		86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DD276F3D36009EB4D9 /* 数组中的第K个最大元素.mm */; };
+		86B723E0276F488F009EB4D9 /* 二叉树层次遍历.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DF276F488F009EB4D9 /* 二叉树层次遍历.mm */; };
+		86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723E1276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		867D6C9B276CDEFF0035EE3A /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "无重复字符的最长子串.mm"; sourceTree = "<group>"; };
 		86B723DB276ECD76009EB4D9 /* QuickSort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QuickSort.mm; sourceTree = "<group>"; };
+		86B723DD276F3D36009EB4D9 /* 数组中的第K个最大元素.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "数组中的第K个最大元素.mm"; sourceTree = "<group>"; };
+		86B723DF276F488F009EB4D9 /* 二叉树层次遍历.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "二叉树层次遍历.mm"; sourceTree = "<group>"; };
+		86B723E1276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "二叉树的锯齿形层序遍历.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 			children = (
 				867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */,
 				86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */,
+				86B723DD276F3D36009EB4D9 /* 数组中的第K个最大元素.mm */,
+				86B723DF276F488F009EB4D9 /* 二叉树层次遍历.mm */,
+				86B723E1276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -232,9 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */,
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
+				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,
+				86B723E0276F488F009EB4D9 /* 二叉树层次遍历.mm in Sources */,
 				86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

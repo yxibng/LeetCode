@@ -15,6 +15,7 @@
 		867D6C8E276CDEE90035EE3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C8D276CDEE90035EE3A /* main.m */; };
 		867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C9B276CDEFF0035EE3A /* LeetCodeTests.m */; };
 		867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */ = {isa = PBXBuildFile; fileRef = 867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */; };
+		86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DB276ECD76009EB4D9 /* QuickSort.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		867D6C99276CDEFF0035EE3A /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D6C9B276CDEFF0035EE3A /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "无重复字符的最长子串.mm"; sourceTree = "<group>"; };
+		86B723DB276ECD76009EB4D9 /* QuickSort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QuickSort.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,28 @@
 		867D6C9A276CDEFF0035EE3A /* LeetCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				86B723DA276ECD58009EB4D9 /* 基本算法 */,
+				86B723D9276ECD4A009EB4D9 /* LeetCode */,
 				867D6C9B276CDEFF0035EE3A /* LeetCodeTests.m */,
+			);
+			path = LeetCodeTests;
+			sourceTree = "<group>";
+		};
+		86B723D9276ECD4A009EB4D9 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
 				867D6CA2276CDF2B0035EE3A /* 无重复字符的最长子串.mm */,
 				86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */,
 			);
-			path = LeetCodeTests;
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		86B723DA276ECD58009EB4D9 /* 基本算法 */ = {
+			isa = PBXGroup;
+			children = (
+				86B723DB276ECD76009EB4D9 /* QuickSort.mm */,
+			);
+			path = "基本算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +235,7 @@
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,
+				86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

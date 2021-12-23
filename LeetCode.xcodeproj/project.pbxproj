@@ -10,6 +10,8 @@
 		860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */ = {isa = PBXBuildFile; fileRef = 860F233E2772146F00A1713E /* 15.三数之和.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */; };
+		866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */; };
+		866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */; };
 		867D6C84276CDEE80035EE3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C83276CDEE80035EE3A /* AppDelegate.m */; };
 		867D6C87276CDEE80035EE3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867D6C86276CDEE80035EE3A /* ViewController.m */; };
 		867D6C89276CDEE90035EE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867D6C88276CDEE90035EE3A /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		860F233E2772146F00A1713E /* 15.三数之和.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "15.三数之和.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "121. 买卖股票的最佳时机.mm"; sourceTree = "<group>"; };
+		866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "236. 二叉树的最近公共祖先.mm"; sourceTree = "<group>"; };
+		866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "200. 岛屿数量.mm"; sourceTree = "<group>"; };
 		867D6C7F276CDEE80035EE3A /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D6C82276CDEE80035EE3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		867D6C83276CDEE80035EE3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */,
 				860F233E2772146F00A1713E /* 15.三数之和.mm */,
 				86E88A0E277374EA00FEABFF /* 160. 相交链表.mm */,
+				866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */,
+				866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -252,6 +258,8 @@
 			files = (
 				86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */,
 				860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */,
+				866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */,
+				866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */,
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
 				8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */,
 				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,

@@ -10,6 +10,7 @@
 		860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */ = {isa = PBXBuildFile; fileRef = 860F233E2772146F00A1713E /* 15.三数之和.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */; };
+		866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */; };
 		866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */; };
 		866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */; };
 		8672D30F277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */; };
@@ -42,6 +43,7 @@
 		860F233E2772146F00A1713E /* 15.三数之和.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "15.三数之和.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "121. 买卖股票的最佳时机.mm"; sourceTree = "<group>"; };
+		866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 06. 从尾到头打印链表.mm"; sourceTree = "<group>"; };
 		866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "236. 二叉树的最近公共祖先.mm"; sourceTree = "<group>"; };
 		866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "200. 岛屿数量.mm"; sourceTree = "<group>"; };
 		8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 09. 用两个栈实现队列.mm"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */,
 				8672D31027760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm */,
+				866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */,
 				866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */,
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
+				866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */,
 				8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */,
 				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,
 				8672D31127760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm in Sources */,

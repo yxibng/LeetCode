@@ -13,6 +13,10 @@
 		866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */; };
 		866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */; };
 		866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC0432776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm */; };
+		866AC0462777392100A27148 /* BinarySearch.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC0452777392100A27148 /* BinarySearch.mm */; };
+		866AC04927773C9C00A27148 /* x 的平方根.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC04827773C9C00A27148 /* x 的平方根.mm */; };
+		866AC04B27773F9A00A27148 /* 猜数字大小.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC04A27773F9A00A27148 /* 猜数字大小.mm */; };
+		866AC04D277741BB00A27148 /* 搜索旋转排序数组.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC04C277741BB00A27148 /* 搜索旋转排序数组.mm */; };
 		866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */; };
 		866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */; };
 		8672D30F277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */; };
@@ -48,6 +52,10 @@
 		866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 06. 从尾到头打印链表.mm"; sourceTree = "<group>"; };
 		866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 24. 反转链表.mm"; sourceTree = "<group>"; };
 		866AC0432776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 35. 复杂链表的复制.mm"; sourceTree = "<group>"; };
+		866AC0452777392100A27148 /* BinarySearch.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BinarySearch.mm; sourceTree = "<group>"; };
+		866AC04827773C9C00A27148 /* x 的平方根.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "x 的平方根.mm"; sourceTree = "<group>"; };
+		866AC04A27773F9A00A27148 /* 猜数字大小.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "猜数字大小.mm"; sourceTree = "<group>"; };
+		866AC04C277741BB00A27148 /* 搜索旋转排序数组.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "搜索旋转排序数组.mm"; sourceTree = "<group>"; };
 		866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "236. 二叉树的最近公共祖先.mm"; sourceTree = "<group>"; };
 		866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "200. 岛屿数量.mm"; sourceTree = "<group>"; };
 		8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 09. 用两个栈实现队列.mm"; sourceTree = "<group>"; };
@@ -89,6 +97,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		866AC04727773C7300A27148 /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				866AC0452777392100A27148 /* BinarySearch.mm */,
+				866AC04827773C9C00A27148 /* x 的平方根.mm */,
+				866AC04A27773F9A00A27148 /* 猜数字大小.mm */,
+				866AC04C277741BB00A27148 /* 搜索旋转排序数组.mm */,
+			);
+			path = "二分查找";
+			sourceTree = "<group>";
+		};
 		8672D30D2776087C00464A71 /* 剑指offer */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +184,7 @@
 		86B723DA276ECD58009EB4D9 /* 基本算法 */ = {
 			isa = PBXGroup;
 			children = (
+				866AC04727773C7300A27148 /* 二分查找 */,
 				86B723DB276ECD76009EB4D9 /* QuickSort.mm */,
 			);
 			path = "基本算法";
@@ -289,12 +309,16 @@
 				866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */,
 				8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */,
 				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,
+				866AC04927773C9C00A27148 /* x 的平方根.mm in Sources */,
 				8672D31127760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,
 				86B723E0276F488F009EB4D9 /* 二叉树层次遍历.mm in Sources */,
+				866AC04D277741BB00A27148 /* 搜索旋转排序数组.mm in Sources */,
 				86E88A0F277374EA00FEABFF /* 160. 相交链表.mm in Sources */,
+				866AC0462777392100A27148 /* BinarySearch.mm in Sources */,
+				866AC04B27773F9A00A27148 /* 猜数字大小.mm in Sources */,
 				86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

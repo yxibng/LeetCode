@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */ = {isa = PBXBuildFile; fileRef = 860F233E2772146F00A1713E /* 15.三数之和.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
+		865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */; };
 		8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */; };
 		866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */; };
 		866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */; };
@@ -33,6 +34,9 @@
 		868948C62778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868948C52778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm */; };
 		868948C8277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868948C7277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm */; };
 		868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868948C92778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm */; };
+		86A1CA6D2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */; };
+		86A1CA6F277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */; };
+		86A1CA71277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */; };
 		86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DB276ECD76009EB4D9 /* QuickSort.mm */; };
 		86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DD276F3D36009EB4D9 /* 数组中的第K个最大元素.mm */; };
 		86B723E0276F488F009EB4D9 /* 二叉树层次遍历.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723DF276F488F009EB4D9 /* 二叉树层次遍历.mm */; };
@@ -53,6 +57,7 @@
 /* Begin PBXFileReference section */
 		860F233E2772146F00A1713E /* 15.三数之和.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "15.三数之和.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
+		865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 50. 第一个只出现一次的字符.mm"; sourceTree = "<group>"; };
 		8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "121. 买卖股票的最佳时机.mm"; sourceTree = "<group>"; };
 		866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 06. 从尾到头打印链表.mm"; sourceTree = "<group>"; };
 		866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 24. 反转链表.mm"; sourceTree = "<group>"; };
@@ -82,6 +87,9 @@
 		868948C52778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "寻找旋转排序数组中的最小值.mm"; sourceTree = "<group>"; };
 		868948C7277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "在排序数组中查找元素的第一个和最后一个位置.mm"; sourceTree = "<group>"; };
 		868948C92778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "154. 寻找旋转排序数组中的最小值 II.mm"; sourceTree = "<group>"; };
+		86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 03. 数组中重复的数字.mm"; sourceTree = "<group>"; };
+		86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 53 - I. 在排序数组中查找数字 I.mm"; sourceTree = "<group>"; };
+		86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 53 - II. 0～n-1中缺失的数字.mm"; sourceTree = "<group>"; };
 		86B723DB276ECD76009EB4D9 /* QuickSort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = QuickSort.mm; sourceTree = "<group>"; };
 		86B723DD276F3D36009EB4D9 /* 数组中的第K个最大元素.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "数组中的第K个最大元素.mm"; sourceTree = "<group>"; };
 		86B723DF276F488F009EB4D9 /* 二叉树层次遍历.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "二叉树层次遍历.mm"; sourceTree = "<group>"; };
@@ -131,6 +139,10 @@
 				866AC0432776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm */,
 				868948C12777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm */,
 				868948C327780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm */,
+				86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */,
+				86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */,
+				86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */,
+				865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -315,6 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				868948C8277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm in Sources */,
+				86A1CA6F277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm in Sources */,
+				86A1CA71277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm in Sources */,
 				86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */,
 				8672D30F277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm in Sources */,
 				866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */,
@@ -327,6 +341,7 @@
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
 				866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */,
 				8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */,
+				865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */,
 				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,
 				866AC04927773C9C00A27148 /* x 的平方根.mm in Sources */,
 				868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */,
@@ -337,6 +352,7 @@
 				86B723E0276F488F009EB4D9 /* 二叉树层次遍历.mm in Sources */,
 				866AC04D277741BB00A27148 /* 搜索旋转排序数组.mm in Sources */,
 				86E88A0F277374EA00FEABFF /* 160. 相交链表.mm in Sources */,
+				86A1CA6D2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm in Sources */,
 				866AC0462777392100A27148 /* BinarySearch.mm in Sources */,
 				866AC04B27773F9A00A27148 /* 猜数字大小.mm in Sources */,
 				86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */,

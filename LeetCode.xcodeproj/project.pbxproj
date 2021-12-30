@@ -35,6 +35,9 @@
 		868948C62778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868948C52778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm */; };
 		868948C8277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868948C7277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm */; };
 		868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868948C92778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm */; };
+		86960DF5277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */; };
+		86960DF7277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */; };
+		86960DF9277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */; };
 		86A1CA6D2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */; };
 		86A1CA6F277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */; };
 		86A1CA71277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */; };
@@ -89,6 +92,9 @@
 		868948C52778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "寻找旋转排序数组中的最小值.mm"; sourceTree = "<group>"; };
 		868948C7277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "在排序数组中查找元素的第一个和最后一个位置.mm"; sourceTree = "<group>"; };
 		868948C92778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "154. 寻找旋转排序数组中的最小值 II.mm"; sourceTree = "<group>"; };
+		86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 32 - I. 从上到下打印二叉树.mm"; sourceTree = "<group>"; };
+		86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 32 - II. 从上到下打印二叉树 II .mm"; sourceTree = "<group>"; };
+		86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 32 - III. 从上到下打印二叉树 III.mm"; sourceTree = "<group>"; };
 		86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 03. 数组中重复的数字.mm"; sourceTree = "<group>"; };
 		86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 53 - I. 在排序数组中查找数字 I.mm"; sourceTree = "<group>"; };
 		86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 53 - II. 0～n-1中缺失的数字.mm"; sourceTree = "<group>"; };
@@ -146,6 +152,9 @@
 				86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */,
 				86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */,
 				865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */,
+				86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */,
+				86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */,
+				86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -331,6 +340,7 @@
 			files = (
 				868948C8277878E0002B9F5A /* 在排序数组中查找元素的第一个和最后一个位置.mm in Sources */,
 				86A1CA6F277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm in Sources */,
+				86960DF7277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm in Sources */,
 				86A1CA71277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm in Sources */,
 				86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */,
 				8672D30F277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm in Sources */,
@@ -343,12 +353,14 @@
 				868948C427780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm in Sources */,
 				866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */,
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
+				86960DF5277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm in Sources */,
 				866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */,
 				8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */,
 				865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */,
 				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,
 				866AC04927773C9C00A27148 /* x 的平方根.mm in Sources */,
 				868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */,
+				86960DF9277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm in Sources */,
 				8672D31127760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */,

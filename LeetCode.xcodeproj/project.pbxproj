@@ -11,6 +11,7 @@
 		86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86116E6E277CA6B700598177 /* Pow202112291022.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */; };
+		8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */; };
 		8663022E2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */; };
 		866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */; };
 		866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */; };
@@ -63,6 +64,7 @@
 		86116E6E277CA6B700598177 /* Pow202112291022.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Pow202112291022.mm; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 50. 第一个只出现一次的字符.mm"; sourceTree = "<group>"; };
+		8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 26. 树的子结构.mm"; sourceTree = "<group>"; };
 		8663022D2770BF6B00946B89 /* 121. 买卖股票的最佳时机.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "121. 买卖股票的最佳时机.mm"; sourceTree = "<group>"; };
 		866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 06. 从尾到头打印链表.mm"; sourceTree = "<group>"; };
 		866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 24. 反转链表.mm"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */,
 				86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */,
 				86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */,
+				8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */,
 				86960DF9277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm in Sources */,
 				8672D31127760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm in Sources */,
+				8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,

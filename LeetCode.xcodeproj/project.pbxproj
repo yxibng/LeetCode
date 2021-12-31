@@ -41,6 +41,7 @@
 		86960DF5277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */; };
 		86960DF7277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */; };
 		86960DF9277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */; };
+		86960E01277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86960E00277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm */; };
 		86A1CA6D2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */; };
 		86A1CA6F277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */; };
 		86A1CA71277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */; };
@@ -101,6 +102,7 @@
 		86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 32 - I. 从上到下打印二叉树.mm"; sourceTree = "<group>"; };
 		86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 32 - II. 从上到下打印二叉树 II .mm"; sourceTree = "<group>"; };
 		86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 32 - III. 从上到下打印二叉树 III.mm"; sourceTree = "<group>"; };
+		86960E00277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 10- I. 斐波那契数列.mm"; sourceTree = "<group>"; };
 		86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 03. 数组中重复的数字.mm"; sourceTree = "<group>"; };
 		86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 53 - I. 在排序数组中查找数字 I.mm"; sourceTree = "<group>"; };
 		86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 53 - II. 0～n-1中缺失的数字.mm"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */,
 				8660B102277D89E100F3B1BF /* 剑指 Offer 27. 二叉树的镜像.mm */,
 				8660B104277D8B9500F3B1BF /* 剑指 Offer 28. 对称的二叉树.mm */,
+				86960E00277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				868948C22777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm in Sources */,
 				866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */,
 				868948C427780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm in Sources */,
+				86960E01277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm in Sources */,
 				866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */,
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
 				86960DF5277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm in Sources */,

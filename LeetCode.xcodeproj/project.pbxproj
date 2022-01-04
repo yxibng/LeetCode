@@ -59,6 +59,7 @@
 		86F75BE6278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BE5278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm */; };
 		86F75BE827827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */; };
 		86F75BEE2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */; };
+		86F75BF02783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		86F75BE5278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 18. 删除链表的节点.mm"; sourceTree = "<group>"; };
 		86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 22. 链表中倒数第k个节点.mm"; sourceTree = "<group>"; };
 		86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 25. 合并两个排序的链表.mm"; sourceTree = "<group>"; };
+		86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 52. 两个链表的第一个公共节点.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				86F75BE5278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm */,
 				86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */,
 				86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */,
+				86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				8672D31127760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm in Sources */,
 				8660B103277D89E100F3B1BF /* 剑指 Offer 27. 二叉树的镜像.mm in Sources */,
 				8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */,
+				86F75BF02783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */,
 				86F75BE42781D28B00AA4838 /* 剑指 Offer 48. 最长不含重复字符的子字符串.mm in Sources */,

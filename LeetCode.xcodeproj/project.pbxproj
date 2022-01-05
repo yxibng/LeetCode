@@ -53,6 +53,7 @@
 		86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86B723E1276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm */; };
 		86DE38B12785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */; };
 		86DE38B32785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */; };
+		86DE38B527856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */; };
 		86E88A0F277374EA00FEABFF /* 160. 相交链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86E88A0E277374EA00FEABFF /* 160. 相交链表.mm */; };
 		86F75BDE2780283200AA4838 /* 剑指 Offer 42. 连续子数组的最大和.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BDD2780283200AA4838 /* 剑指 Offer 42. 连续子数组的最大和.mm */; };
 		86F75BE0278030AC00AA4838 /* 剑指 Offer 47. 礼物的最大价值.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BDF278030AC00AA4838 /* 剑指 Offer 47. 礼物的最大价值.mm */; };
@@ -126,6 +127,7 @@
 		86B723E1276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "二叉树的锯齿形层序遍历.mm"; sourceTree = "<group>"; };
 		86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm"; sourceTree = "<group>"; };
 		86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 57. 和为s的两个数字.mm"; sourceTree = "<group>"; };
+		86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 58 - I. 翻转单词顺序.mm"; sourceTree = "<group>"; };
 		86E88A0E277374EA00FEABFF /* 160. 相交链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "160. 相交链表.mm"; sourceTree = "<group>"; };
 		86F75BDD2780283200AA4838 /* 剑指 Offer 42. 连续子数组的最大和.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 42. 连续子数组的最大和.mm"; sourceTree = "<group>"; };
 		86F75BDF278030AC00AA4838 /* 剑指 Offer 47. 礼物的最大价值.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 47. 礼物的最大价值.mm"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */,
 				86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */,
 				86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */,
+				86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				868948C62778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm in Sources */,
 				86DE38B12785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm in Sources */,
 				860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */,
+				86DE38B527856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm in Sources */,
 				86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */,
 				868948C22777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm in Sources */,
 				866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */,

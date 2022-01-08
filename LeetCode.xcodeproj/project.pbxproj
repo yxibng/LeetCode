@@ -56,6 +56,7 @@
 		86C5DBFA2787E60300CAACF6 /* 剑指 Offer 34. 二叉树中和为某一值的路径.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86C5DBF92787E60300CAACF6 /* 剑指 Offer 34. 二叉树中和为某一值的路径.mm */; };
 		86C5DBFC2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86C5DBFB2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm */; };
 		86C5DBFE27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86C5DBFD27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm */; };
+		86CA61D62789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86CA61D52789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm */; };
 		86DE38B12785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */; };
 		86DE38B32785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */; };
 		86DE38B527856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */; };
@@ -135,6 +136,7 @@
 		86C5DBF92787E60300CAACF6 /* 剑指 Offer 34. 二叉树中和为某一值的路径.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 34. 二叉树中和为某一值的路径.mm"; sourceTree = "<group>"; };
 		86C5DBFB2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 36. 二叉搜索树与双向链表.mm"; sourceTree = "<group>"; };
 		86C5DBFD27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 54. 二叉搜索树的第k大节点.mm"; sourceTree = "<group>"; };
+		86CA61D52789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 45. 把数组排成最小的数.mm"; sourceTree = "<group>"; };
 		86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm"; sourceTree = "<group>"; };
 		86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 57. 和为s的两个数字.mm"; sourceTree = "<group>"; };
 		86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 58 - I. 翻转单词顺序.mm"; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				86C5DBF92787E60300CAACF6 /* 剑指 Offer 34. 二叉树中和为某一值的路径.mm */,
 				86C5DBFB2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm */,
 				86C5DBFD27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm */,
+				86CA61D52789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				86C5DBFC2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm in Sources */,
 				866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */,
 				86F75BE22781327500AA4838 /* 剑指 Offer 46. 把数字翻译成字符串.mm in Sources */,
+				86CA61D62789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm in Sources */,
 				868948C62778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm in Sources */,
 				86DE38B12785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm in Sources */,
 				860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */,

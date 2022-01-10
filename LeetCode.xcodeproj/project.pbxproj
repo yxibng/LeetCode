@@ -10,6 +10,7 @@
 		860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */ = {isa = PBXBuildFile; fileRef = 860F233E2772146F00A1713E /* 15.三数之和.mm */; };
 		86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86116E6E277CA6B700598177 /* Pow202112291022.mm */; };
 		8616BB76278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */; };
+		8616BB78278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB77278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */; };
 		8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */; };
@@ -89,6 +90,7 @@
 		860F233E2772146F00A1713E /* 15.三数之和.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "15.三数之和.mm"; sourceTree = "<group>"; };
 		86116E6E277CA6B700598177 /* Pow202112291022.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Pow202112291022.mm; sourceTree = "<group>"; };
 		8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 55 - I. 二叉树的深度.mm"; sourceTree = "<group>"; };
+		8616BB77278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 55 - II. 平衡二叉树.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 50. 第一个只出现一次的字符.mm"; sourceTree = "<group>"; };
 		8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 26. 树的子结构.mm"; sourceTree = "<group>"; };
@@ -195,47 +197,48 @@
 		8672D30D2776087C00464A71 /* 剑指offer */ = {
 			isa = PBXGroup;
 			children = (
-				8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */,
-				8672D31027760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm */,
-				866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */,
-				866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */,
-				866AC0432776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm */,
-				868948C12777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm */,
-				868948C327780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm */,
 				86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */,
-				86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */,
-				86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */,
-				865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */,
-				86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */,
-				86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */,
-				86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */,
+				868948C12777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm */,
+				866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */,
+				8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */,
+				86960E00277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm */,
+				86960E02277EDD970026C324 /* 剑指 Offer 10- II. 青蛙跳台阶问题.mm */,
+				86C5DBF02786C1A100CAACF6 /* 剑指 Offer 12. 矩阵中的路径.mm */,
+				86C5DBF52786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm */,
+				86F75BE5278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm */,
+				86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */,
+				86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */,
+				866AC0412776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm */,
+				86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */,
 				8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */,
 				8660B102277D89E100F3B1BF /* 剑指 Offer 27. 二叉树的镜像.mm */,
 				8660B104277D8B9500F3B1BF /* 剑指 Offer 28. 对称的二叉树.mm */,
-				86960E00277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm */,
-				86960E02277EDD970026C324 /* 剑指 Offer 10- II. 青蛙跳台阶问题.mm */,
-				86960E04277EE1DE0026C324 /* 剑指 Offer 63. 股票的最大利润.mm */,
-				86F75BDD2780283200AA4838 /* 剑指 Offer 42. 连续子数组的最大和.mm */,
-				86F75BDF278030AC00AA4838 /* 剑指 Offer 47. 礼物的最大价值.mm */,
-				86F75BE12781327500AA4838 /* 剑指 Offer 46. 把数字翻译成字符串.mm */,
-				86F75BE32781D28B00AA4838 /* 剑指 Offer 48. 最长不含重复字符的子字符串.mm */,
-				86F75BE5278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm */,
-				86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */,
-				86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */,
-				86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */,
-				86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */,
-				86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */,
-				86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */,
-				86C5DBF02786C1A100CAACF6 /* 剑指 Offer 12. 矩阵中的路径.mm */,
-				86C5DBF52786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm */,
+				8672D31027760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm */,
+				86960DF4277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm */,
+				86960DF6277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm */,
+				86960DF8277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm */,
 				86C5DBF92787E60300CAACF6 /* 剑指 Offer 34. 二叉树中和为某一值的路径.mm */,
+				866AC0432776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm */,
 				86C5DBFB2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm */,
-				86C5DBFD27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm */,
-				86CA61D52789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm */,
-				86CA61D727895B9500A09EDD /* 剑指 Offer 61. 扑克牌中的顺子.mm */,
 				86C6CAA6278A8C15007DD88B /* 剑指 Offer 40. 最小的k个数.mm */,
 				86C6CAA8278AFFED007DD88B /* 剑指 Offer 41. 数据流中的中位数.mm */,
+				86F75BDD2780283200AA4838 /* 剑指 Offer 42. 连续子数组的最大和.mm */,
+				86CA61D52789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm */,
+				86F75BE12781327500AA4838 /* 剑指 Offer 46. 把数字翻译成字符串.mm */,
+				86F75BDF278030AC00AA4838 /* 剑指 Offer 47. 礼物的最大价值.mm */,
+				86F75BE32781D28B00AA4838 /* 剑指 Offer 48. 最长不含重复字符的子字符串.mm */,
+				865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */,
+				86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */,
+				86A1CA6E277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm */,
+				86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */,
+				86C5DBFD27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm */,
 				8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */,
+				86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */,
+				86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */,
+				868948C327780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm */,
+				86CA61D727895B9500A09EDD /* 剑指 Offer 61. 扑克牌中的顺子.mm */,
+				86960E04277EE1DE0026C324 /* 剑指 Offer 63. 股票的最大利润.mm */,
+				8616BB77278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */,
 				86CA61D827895B9600A09EDD /* 剑指 Offer 61. 扑克牌中的顺子.mm in Sources */,
 				86F75BE827827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm in Sources */,
+				8616BB78278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm in Sources */,
 				86960DF9277C08C80026C324 /* 剑指 Offer 32 - III. 从上到下打印二叉树 III.mm in Sources */,
 				8672D31127760BC700464A71 /* 剑指 Offer 30. 包含min函数的栈.mm in Sources */,
 				8660B103277D89E100F3B1BF /* 剑指 Offer 27. 二叉树的镜像.mm in Sources */,

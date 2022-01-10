@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */ = {isa = PBXBuildFile; fileRef = 860F233E2772146F00A1713E /* 15.三数之和.mm */; };
 		86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86116E6E277CA6B700598177 /* Pow202112291022.mm */; };
+		8616BB76278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */; };
 		8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */; };
@@ -87,6 +88,7 @@
 /* Begin PBXFileReference section */
 		860F233E2772146F00A1713E /* 15.三数之和.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "15.三数之和.mm"; sourceTree = "<group>"; };
 		86116E6E277CA6B700598177 /* Pow202112291022.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Pow202112291022.mm; sourceTree = "<group>"; };
+		8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 55 - I. 二叉树的深度.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 50. 第一个只出现一次的字符.mm"; sourceTree = "<group>"; };
 		8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 26. 树的子结构.mm"; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				86CA61D727895B9500A09EDD /* 剑指 Offer 61. 扑克牌中的顺子.mm */,
 				86C6CAA6278A8C15007DD88B /* 剑指 Offer 40. 最小的k个数.mm */,
 				86C6CAA8278AFFED007DD88B /* 剑指 Offer 41. 数据流中的中位数.mm */,
+				8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				86A1CA6F277A06A000475A59 /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.mm in Sources */,
 				86960DF7277C06830026C324 /* 剑指 Offer 32 - II. 从上到下打印二叉树 II .mm in Sources */,
 				86F75BDE2780283200AA4838 /* 剑指 Offer 42. 连续子数组的最大和.mm in Sources */,
+				8616BB76278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm in Sources */,
 				86A1CA71277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm in Sources */,
 				86C5DBFE27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm in Sources */,
 				86B723E2276F4B53009EB4D9 /* 二叉树的锯齿形层序遍历.mm in Sources */,

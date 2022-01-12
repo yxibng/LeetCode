@@ -18,6 +18,9 @@
 		8616BB85278D7BEA00173F58 /* 环形链表 II.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB84278D7BEA00173F58 /* 环形链表 II.mm */; };
 		8616BB87278D863B00173F58 /* 相交链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB86278D863B00173F58 /* 相交链表.mm */; };
 		8616BB89278D885300173F58 /* 删除链表的倒数第N个节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB88278D885300173F58 /* 删除链表的倒数第N个节点.mm */; };
+		8616BB8B278D924800173F58 /* 移除链表元素.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB8A278D924800173F58 /* 移除链表元素.mm */; };
+		8616BB8D278DB56700173F58 /* 奇偶链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB8C278DB56700173F58 /* 奇偶链表.mm */; };
+		8616BB93278ECE2700173F58 /* 234. 回文链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB92278ECE2700173F58 /* 234. 回文链表.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */; };
 		8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */; };
@@ -105,6 +108,9 @@
 		8616BB84278D7BEA00173F58 /* 环形链表 II.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "环形链表 II.mm"; sourceTree = "<group>"; };
 		8616BB86278D863B00173F58 /* 相交链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "相交链表.mm"; sourceTree = "<group>"; };
 		8616BB88278D885300173F58 /* 删除链表的倒数第N个节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "删除链表的倒数第N个节点.mm"; sourceTree = "<group>"; };
+		8616BB8A278D924800173F58 /* 移除链表元素.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "移除链表元素.mm"; sourceTree = "<group>"; };
+		8616BB8C278DB56700173F58 /* 奇偶链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "奇偶链表.mm"; sourceTree = "<group>"; };
+		8616BB92278ECE2700173F58 /* 234. 回文链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "234. 回文链表.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 50. 第一个只出现一次的字符.mm"; sourceTree = "<group>"; };
 		8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 26. 树的子结构.mm"; sourceTree = "<group>"; };
@@ -201,6 +207,9 @@
 				8616BB84278D7BEA00173F58 /* 环形链表 II.mm */,
 				8616BB86278D863B00173F58 /* 相交链表.mm */,
 				8616BB88278D885300173F58 /* 删除链表的倒数第N个节点.mm */,
+				8616BB8A278D924800173F58 /* 移除链表元素.mm */,
+				8616BB8C278DB56700173F58 /* 奇偶链表.mm */,
+				8616BB92278ECE2700173F58 /* 234. 回文链表.mm */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -468,6 +477,7 @@
 				86960E05277EE1DE0026C324 /* 剑指 Offer 63. 股票的最大利润.mm in Sources */,
 				86C5DBFC2787ED7900CAACF6 /* 剑指 Offer 36. 二叉搜索树与双向链表.mm in Sources */,
 				8616BB83278D795700173F58 /* 环形链表.mm in Sources */,
+				8616BB8B278D924800173F58 /* 移除链表元素.mm in Sources */,
 				866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */,
 				86F75BE22781327500AA4838 /* 剑指 Offer 46. 把数字翻译成字符串.mm in Sources */,
 				86CA61D62789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm in Sources */,
@@ -479,6 +489,7 @@
 				86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */,
 				86C5DBF62786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm in Sources */,
 				868948C22777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm in Sources */,
+				8616BB8D278DB56700173F58 /* 奇偶链表.mm in Sources */,
 				866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */,
 				86C5DBF12786C1A100CAACF6 /* 剑指 Offer 12. 矩阵中的路径.mm in Sources */,
 				868948C427780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm in Sources */,
@@ -507,6 +518,7 @@
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */,
 				86DE38B32785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm in Sources */,
+				8616BB93278ECE2700173F58 /* 234. 回文链表.mm in Sources */,
 				8616BB7C278D4C8000173F58 /* 剑指 Offer 68 - II. 二叉树的最近公共祖先.mm in Sources */,
 				86F75BE42781D28B00AA4838 /* 剑指 Offer 48. 最长不含重复字符的子字符串.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,

@@ -22,6 +22,8 @@
 		8616BB8D278DB56700173F58 /* 奇偶链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB8C278DB56700173F58 /* 奇偶链表.mm */; };
 		8616BB93278ECE2700173F58 /* 234. 回文链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB92278ECE2700173F58 /* 234. 回文链表.mm */; };
 		8616BB99278EE15A00173F58 /* 剑指 Offer 07. 重建二叉树.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB98278EE15A00173F58 /* 剑指 Offer 07. 重建二叉树.mm */; };
+		8616BB9B278EEE1D00173F58 /* 剑指 Offer 16. 数值的整数次方.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB9A278EEE1D00173F58 /* 剑指 Offer 16. 数值的整数次方.mm */; };
+		8616BB9D278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8616BB9C278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm */; };
 		86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */; };
 		865D8BB1277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */; };
 		8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */; };
@@ -113,6 +115,8 @@
 		8616BB8C278DB56700173F58 /* 奇偶链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "奇偶链表.mm"; sourceTree = "<group>"; };
 		8616BB92278ECE2700173F58 /* 234. 回文链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "234. 回文链表.mm"; sourceTree = "<group>"; };
 		8616BB98278EE15A00173F58 /* 剑指 Offer 07. 重建二叉树.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 07. 重建二叉树.mm"; sourceTree = "<group>"; };
+		8616BB9A278EEE1D00173F58 /* 剑指 Offer 16. 数值的整数次方.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 16. 数值的整数次方.mm"; sourceTree = "<group>"; };
+		8616BB9C278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 33. 二叉搜索树的后序遍历序列.mm"; sourceTree = "<group>"; };
 		86306C4A276DD46C009BFC2B /* LRU缓存机制.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "LRU缓存机制.mm"; sourceTree = "<group>"; };
 		865D8BB0277B15E0008684B9 /* 剑指 Offer 50. 第一个只出现一次的字符.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 50. 第一个只出现一次的字符.mm"; sourceTree = "<group>"; };
 		8660B100277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 26. 树的子结构.mm"; sourceTree = "<group>"; };
@@ -237,11 +241,13 @@
 				86A1CA6C2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm */,
 				868948C12777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm */,
 				866AC03F2776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm */,
+				8616BB98278EE15A00173F58 /* 剑指 Offer 07. 重建二叉树.mm */,
 				8672D30E277608AE00464A71 /* 剑指 Offer 09. 用两个栈实现队列.mm */,
 				86960E00277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm */,
 				86960E02277EDD970026C324 /* 剑指 Offer 10- II. 青蛙跳台阶问题.mm */,
 				86C5DBF02786C1A100CAACF6 /* 剑指 Offer 12. 矩阵中的路径.mm */,
 				86C5DBF52786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm */,
+				8616BB9A278EEE1D00173F58 /* 剑指 Offer 16. 数值的整数次方.mm */,
 				86F75BE5278278EA00AA4838 /* 剑指 Offer 18. 删除链表的节点.mm */,
 				86DE38B02785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm */,
 				86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */,
@@ -270,15 +276,15 @@
 				86A1CA70277A0AEB00475A59 /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.mm */,
 				86C5DBFD27882D8000CAACF6 /* 剑指 Offer 54. 二叉搜索树的第k大节点.mm */,
 				8616BB75278BC98F00173F58 /* 剑指 Offer 55 - I. 二叉树的深度.mm */,
+				8616BB77278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm */,
 				86DE38B22785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm */,
 				86DE38B427856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm */,
 				868948C327780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm */,
 				86CA61D727895B9500A09EDD /* 剑指 Offer 61. 扑克牌中的顺子.mm */,
 				86960E04277EE1DE0026C324 /* 剑指 Offer 63. 股票的最大利润.mm */,
-				8616BB77278BCB2F00173F58 /* 剑指 Offer 55 - II. 平衡二叉树.mm */,
 				8616BB79278D4AEB00173F58 /* 剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.mm */,
 				8616BB7B278D4C8000173F58 /* 剑指 Offer 68 - II. 二叉树的最近公共祖先.mm */,
-				8616BB98278EE15A00173F58 /* 剑指 Offer 07. 重建二叉树.mm */,
+				8616BB9C278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -499,6 +505,7 @@
 				868948C427780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm in Sources */,
 				86960E01277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm in Sources */,
 				866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */,
+				8616BB9B278EEE1D00173F58 /* 剑指 Offer 16. 数值的整数次方.mm in Sources */,
 				867D6C9C276CDEFF0035EE3A /* LeetCodeTests.m in Sources */,
 				86960DF5277C02100026C324 /* 剑指 Offer 32 - I. 从上到下打印二叉树.mm in Sources */,
 				866AC0402776ABFD00A27148 /* 剑指 Offer 06. 从尾到头打印链表.mm in Sources */,
@@ -536,6 +543,7 @@
 				866AC04B27773F9A00A27148 /* 猜数字大小.mm in Sources */,
 				8616BB7A278D4AEB00173F58 /* 剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.mm in Sources */,
 				86B723DC276ECD76009EB4D9 /* QuickSort.mm in Sources */,
+				8616BB9D278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

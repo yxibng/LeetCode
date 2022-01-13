@@ -87,6 +87,8 @@
 		86F75BE827827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */; };
 		86F75BEE2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */; };
 		86F75BF02783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */; };
+		FE1DB813278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */; };
+		FE1DB815278FFE170010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +187,8 @@
 		86F75BE727827A2B00AA4838 /* 剑指 Offer 22. 链表中倒数第k个节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 22. 链表中倒数第k个节点.mm"; sourceTree = "<group>"; };
 		86F75BED2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 25. 合并两个排序的链表.mm"; sourceTree = "<group>"; };
 		86F75BEF2783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 52. 两个链表的第一个公共节点.mm"; sourceTree = "<group>"; };
+		FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 15. 二进制中1的个数.mm"; sourceTree = "<group>"; };
+		FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 65. 不用加减乘除做加法 .mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +289,8 @@
 				8616BB79278D4AEB00173F58 /* 剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.mm */,
 				8616BB7B278D4C8000173F58 /* 剑指 Offer 68 - II. 二叉树的最近公共祖先.mm */,
 				8616BB9C278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm */,
+				FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */,
+				FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -495,6 +501,7 @@
 				86DE38B12785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm in Sources */,
 				860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */,
 				86DE38B527856ACC00D7186B /* 剑指 Offer 58 - I. 翻转单词顺序.mm in Sources */,
+				FE1DB815278FFE170010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm in Sources */,
 				86C6CAA7278A8C15007DD88B /* 剑指 Offer 40. 最小的k个数.mm in Sources */,
 				86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */,
 				86C5DBF62786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm in Sources */,
@@ -537,6 +544,7 @@
 				866AC04D277741BB00A27148 /* 搜索旋转排序数组.mm in Sources */,
 				86E88A0F277374EA00FEABFF /* 160. 相交链表.mm in Sources */,
 				8616BB85278D7BEA00173F58 /* 环形链表 II.mm in Sources */,
+				FE1DB813278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm in Sources */,
 				8616BB89278D885300173F58 /* 删除链表的倒数第N个节点.mm in Sources */,
 				86A1CA6D2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm in Sources */,
 				866AC0462777392100A27148 /* BinarySearch.mm in Sources */,

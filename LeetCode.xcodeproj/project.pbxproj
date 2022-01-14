@@ -91,6 +91,7 @@
 		FE1DB815278FFE170010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */; };
 		FE1DB81727900D670010B4F2 /* 两数相加.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB81627900D670010B4F2 /* 两数相加.mm */; };
 		FE4EA8B627917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */; };
+		FE7AC54627918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +194,7 @@
 		FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 65. 不用加减乘除做加法 .mm"; sourceTree = "<group>"; };
 		FE1DB81627900D670010B4F2 /* 两数相加.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "两数相加.mm"; sourceTree = "<group>"; };
 		FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 56 - I. 数组中数字出现的次数.mm"; sourceTree = "<group>"; };
+		FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 56 - II. 数组中数字出现的次数 II .mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +299,7 @@
 				FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */,
 				FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */,
 				FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */,
+				FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
 				866AC0442776AE8F00A27148 /* 剑指 Offer 35. 复杂链表的复制.mm in Sources */,
 				86DE38B32785697700D7186B /* 剑指 Offer 57. 和为s的两个数字.mm in Sources */,
+				FE7AC54627918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm in Sources */,
 				8616BB93278ECE2700173F58 /* 234. 回文链表.mm in Sources */,
 				8616BB7C278D4C8000173F58 /* 剑指 Offer 68 - II. 二叉树的最近公共祖先.mm in Sources */,
 				86F75BE42781D28B00AA4838 /* 剑指 Offer 48. 最长不含重复字符的子字符串.mm in Sources */,

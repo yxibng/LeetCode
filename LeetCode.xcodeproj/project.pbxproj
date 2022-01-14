@@ -90,6 +90,7 @@
 		FE1DB813278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */; };
 		FE1DB815278FFE170010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */; };
 		FE1DB81727900D670010B4F2 /* 两数相加.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB81627900D670010B4F2 /* 两数相加.mm */; };
+		FE4EA8B627917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +192,7 @@
 		FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 15. 二进制中1的个数.mm"; sourceTree = "<group>"; };
 		FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 65. 不用加减乘除做加法 .mm"; sourceTree = "<group>"; };
 		FE1DB81627900D670010B4F2 /* 两数相加.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "两数相加.mm"; sourceTree = "<group>"; };
+		FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 56 - I. 数组中数字出现的次数.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 				8616BB9C278EF4B400173F58 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.mm */,
 				FE1DB812278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm */,
 				FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */,
+				FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */,
 			);
 			path = "剑指offer";
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				8616BB83278D795700173F58 /* 环形链表.mm in Sources */,
 				8616BB8B278D924800173F58 /* 移除链表元素.mm in Sources */,
 				866AC0422776AD4F00A27148 /* 剑指 Offer 24. 反转链表.mm in Sources */,
+				FE4EA8B627917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm in Sources */,
 				86F75BE22781327500AA4838 /* 剑指 Offer 46. 把数字翻译成字符串.mm in Sources */,
 				86CA61D62789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm in Sources */,
 				868948C62778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm in Sources */,
@@ -701,7 +705,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VB8MVMJBU4;
+				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -727,7 +731,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VB8MVMJBU4;
+				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -751,7 +755,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VB8MVMJBU4;
+				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -773,7 +777,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VB8MVMJBU4;
+				DEVELOPMENT_TEAM = C6T93NC4DJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -27,6 +27,10 @@ using namespace std;
 1. 整体翻转
 2. 翻转 [0, k mod n-1]
 3. 翻转 [k mod n, n-1]
+ ab cdefg
+ gfedc ba
+ cdefg ab
+ 
  
  */
 

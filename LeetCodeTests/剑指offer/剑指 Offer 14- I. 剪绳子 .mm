@@ -6,11 +6,21 @@
 //
 
 #import <XCTest/XCTest.h>
+#include <iostream>
 
 class Solution {
 public:
     int cuttingRope(int n) {
-        return 0;
+        int dp[n+1];
+        memset(dp, 0, (n+1) * sizeof(int));
+        
+        dp[2] = 1;
+        for (int i = 3; i<=n; i++) {
+            for (int j = 2 ; j < i; j++) {
+                dp[i] = std::max(dp[i], std::max(j * (i-j), j * dp[i-j]));
+            }
+        }
+        return dp[n];
     }
 };
 
@@ -30,8 +40,11 @@ public:
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    int ret = Solution().cuttingRope(10);
+    XCTAssert(ret == 36);
+    
+    
 }
 
 - (void)testPerformanceExample {

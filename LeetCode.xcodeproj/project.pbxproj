@@ -91,6 +91,8 @@
 		FE1DB815278FFE170010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */; };
 		FE1DB81727900D670010B4F2 /* 两数相加.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1DB81627900D670010B4F2 /* 两数相加.mm */; };
 		FE4EA8B627917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */; };
+		FE60930727A0411600A68E60 /* 删除排序数组中的重复项.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE60930627A0411600A68E60 /* 删除排序数组中的重复项.mm */; };
+		FE60930927A0446C00A68E60 /* 买卖股票的最佳时机 II.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE60930827A0446C00A68E60 /* 买卖股票的最佳时机 II.mm */; };
 		FE7AC54627918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */; };
 		FEB4F00D279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEB4F00C279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm */; };
 		FEB4F0182799A76D00826907 /* 剑指 Offer 59 - II. 队列的最大值 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FEB4F0172799A76D00826907 /* 剑指 Offer 59 - II. 队列的最大值 .mm */; };
@@ -207,6 +209,8 @@
 		FE1DB814278FFE160010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 65. 不用加减乘除做加法 .mm"; sourceTree = "<group>"; };
 		FE1DB81627900D670010B4F2 /* 两数相加.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "两数相加.mm"; sourceTree = "<group>"; };
 		FE4EA8B527917FAF005963BD /* 剑指 Offer 56 - I. 数组中数字出现的次数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 56 - I. 数组中数字出现的次数.mm"; sourceTree = "<group>"; };
+		FE60930627A0411600A68E60 /* 删除排序数组中的重复项.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "删除排序数组中的重复项.mm"; sourceTree = "<group>"; };
+		FE60930827A0446C00A68E60 /* 买卖股票的最佳时机 II.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "买卖股票的最佳时机 II.mm"; sourceTree = "<group>"; };
 		FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 56 - II. 数组中数字出现的次数 II .mm"; sourceTree = "<group>"; };
 		FEB4F00C279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 59 - I. 滑动窗口的最大值.mm"; sourceTree = "<group>"; };
 		FEB4F0172799A76D00826907 /* 剑指 Offer 59 - II. 队列的最大值 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 59 - II. 队列的最大值 .mm"; sourceTree = "<group>"; };
@@ -406,12 +410,22 @@
 		86B723DA276ECD58009EB4D9 /* 基本算法 */ = {
 			isa = PBXGroup;
 			children = (
+				FE60930527A040F100A68E60 /* 初级算法 */,
 				8616BB7F278D6B1000173F58 /* 链表 */,
 				866AC04727773C7300A27148 /* 二分查找 */,
 				86B723DB276ECD76009EB4D9 /* QuickSort.mm */,
 				FEB4F038279C30A700826907 /* MergeSort.mm */,
 			);
 			path = "基本算法";
+			sourceTree = "<group>";
+		};
+		FE60930527A040F100A68E60 /* 初级算法 */ = {
+			isa = PBXGroup;
+			children = (
+				FE60930627A0411600A68E60 /* 删除排序数组中的重复项.mm */,
+				FE60930827A0446C00A68E60 /* 买卖股票的最佳时机 II.mm */,
+			);
+			path = "初级算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -589,6 +603,7 @@
 				FEB4F00D279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm in Sources */,
 				8660B103277D89E100F3B1BF /* 剑指 Offer 27. 二叉树的镜像.mm in Sources */,
 				8660B101277D62AA00F3B1BF /* 剑指 Offer 26. 树的子结构.mm in Sources */,
+				FE60930727A0411600A68E60 /* 删除排序数组中的重复项.mm in Sources */,
 				86F75BF02783F5C900AA4838 /* 剑指 Offer 52. 两个链表的第一个公共节点.mm in Sources */,
 				86C5DBFA2787E60300CAACF6 /* 剑指 Offer 34. 二叉树中和为某一值的路径.mm in Sources */,
 				86306C4B276DD46C009BFC2B /* LRU缓存机制.mm in Sources */,
@@ -608,6 +623,7 @@
 				FED9B19227943F42008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm in Sources */,
 				8616BB85278D7BEA00173F58 /* 环形链表 II.mm in Sources */,
 				FE1DB813278FF3E40010B4F2 /* 剑指 Offer 15. 二进制中1的个数.mm in Sources */,
+				FE60930927A0446C00A68E60 /* 买卖股票的最佳时机 II.mm in Sources */,
 				8616BB89278D885300173F58 /* 删除链表的倒数第N个节点.mm in Sources */,
 				86A1CA6D2779FB2700475A59 /* 剑指 Offer 03. 数组中重复的数字.mm in Sources */,
 				866AC0462777392100A27148 /* BinarySearch.mm in Sources */,

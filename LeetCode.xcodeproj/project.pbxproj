@@ -107,6 +107,8 @@
 		FED9B1A1279552BB008412D6 /* 剑指 Offer 29. 顺时针打印矩阵 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B1A0279552BB008412D6 /* 剑指 Offer 29. 顺时针打印矩阵 .mm */; };
 		FED9B1B42796C2AA008412D6 /* 剑指 Offer 31. 栈的压入、弹出序列 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B1B32796C2AA008412D6 /* 剑指 Offer 31. 栈的压入、弹出序列 .mm */; };
 		FED9B1B62796C8E4008412D6 /* 剑指 Offer 20. 表示数值的字符串.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B1B52796C8E4008412D6 /* 剑指 Offer 20. 表示数值的字符串.mm */; };
+		FEEB5FF727A2DAEE0045E12F /* 旋转数组.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEEB5FF627A2DAEE0045E12F /* 旋转数组.mm */; };
+		FEEB5FF927A2E4EE0045E12F /* 存在重复元素.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEEB5FF827A2E4EE0045E12F /* 存在重复元素.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +227,8 @@
 		FED9B1A0279552BB008412D6 /* 剑指 Offer 29. 顺时针打印矩阵 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 29. 顺时针打印矩阵 .mm"; sourceTree = "<group>"; };
 		FED9B1B32796C2AA008412D6 /* 剑指 Offer 31. 栈的压入、弹出序列 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 31. 栈的压入、弹出序列 .mm"; sourceTree = "<group>"; };
 		FED9B1B52796C8E4008412D6 /* 剑指 Offer 20. 表示数值的字符串.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 20. 表示数值的字符串.mm"; sourceTree = "<group>"; };
+		FEEB5FF627A2DAEE0045E12F /* 旋转数组.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "旋转数组.mm"; sourceTree = "<group>"; };
+		FEEB5FF827A2E4EE0045E12F /* 存在重复元素.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "存在重复元素.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +428,8 @@
 			children = (
 				FE60930627A0411600A68E60 /* 删除排序数组中的重复项.mm */,
 				FE60930827A0446C00A68E60 /* 买卖股票的最佳时机 II.mm */,
+				FEEB5FF627A2DAEE0045E12F /* 旋转数组.mm */,
+				FEEB5FF827A2E4EE0045E12F /* 存在重复元素.mm */,
 			);
 			path = "初级算法";
 			sourceTree = "<group>";
@@ -572,12 +578,14 @@
 				FE1DB815278FFE170010B4F2 /* 剑指 Offer 65. 不用加减乘除做加法 .mm in Sources */,
 				86C6CAA7278A8C15007DD88B /* 剑指 Offer 40. 最小的k个数.mm in Sources */,
 				86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */,
+				FEEB5FF927A2E4EE0045E12F /* 存在重复元素.mm in Sources */,
 				86C5DBF62786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm in Sources */,
 				868948C22777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm in Sources */,
 				FED9B1962794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm in Sources */,
 				8616BB8D278DB56700173F58 /* 奇偶链表.mm in Sources */,
 				866CE2E02774786500D1E401 /* 200. 岛屿数量.mm in Sources */,
 				86C5DBF12786C1A100CAACF6 /* 剑指 Offer 12. 矩阵中的路径.mm in Sources */,
+				FEEB5FF727A2DAEE0045E12F /* 旋转数组.mm in Sources */,
 				868948C427780265002B9F5A /* 剑指 Offer 58 - II. 左旋转字符串.mm in Sources */,
 				86960E01277E996B0026C324 /* 剑指 Offer 10- I. 斐波那契数列.mm in Sources */,
 				866CE2DE27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm in Sources */,

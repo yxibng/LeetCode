@@ -112,6 +112,7 @@
 		FEC2FE1127AE0D8F00885574 /* 字符串转换整数 (atoi) .mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE1027AE0D8F00885574 /* 字符串转换整数 (atoi) .mm */; };
 		FEC2FE1327AE4D4700885574 /* 外观数列.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE1227AE4D4700885574 /* 外观数列.mm */; };
 		FEC2FE1527AE52CF00885574 /* 最长公共前缀.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE1427AE52CF00885574 /* 最长公共前缀.mm */; };
+		FEC2FE1727AE971B00885574 /* 25. K 个一组翻转链表.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE1627AE971B00885574 /* 25. K 个一组翻转链表.mm */; };
 		FED9B19227943F42008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B19127943F41008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm */; };
 		FED9B194279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B193279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm */; };
 		FED9B1962794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B1952794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm */; };
@@ -244,6 +245,7 @@
 		FEC2FE1027AE0D8F00885574 /* 字符串转换整数 (atoi) .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "字符串转换整数 (atoi) .mm"; sourceTree = "<group>"; };
 		FEC2FE1227AE4D4700885574 /* 外观数列.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "外观数列.mm"; sourceTree = "<group>"; };
 		FEC2FE1427AE52CF00885574 /* 最长公共前缀.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "最长公共前缀.mm"; sourceTree = "<group>"; };
+		FEC2FE1627AE971B00885574 /* 25. K 个一组翻转链表.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "25. K 个一组翻转链表.mm"; sourceTree = "<group>"; };
 		FED9B19127943F41008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 39. 数组中出现次数超过一半的数字.mm"; sourceTree = "<group>"; };
 		FED9B193279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 66. 构建乘积数组.mm"; sourceTree = "<group>"; };
 		FED9B1952794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 14- I. 剪绳子 .mm"; sourceTree = "<group>"; };
@@ -431,6 +433,7 @@
 				86E88A0E277374EA00FEABFF /* 160. 相交链表.mm */,
 				866CE2DD27746E1400D1E401 /* 236. 二叉树的最近公共祖先.mm */,
 				866CE2DF2774786500D1E401 /* 200. 岛屿数量.mm */,
+				FEC2FE1627AE971B00885574 /* 25. K 个一组翻转链表.mm */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -669,6 +672,7 @@
 				FED9B194279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm in Sources */,
 				FED9B1B42796C2AA008412D6 /* 剑指 Offer 31. 栈的压入、弹出序列 .mm in Sources */,
 				86F75BE42781D28B00AA4838 /* 剑指 Offer 48. 最长不含重复字符的子字符串.mm in Sources */,
+				FEC2FE1727AE971B00885574 /* 25. K 个一组翻转链表.mm in Sources */,
 				867D6CA3276CDF2B0035EE3A /* 无重复字符的最长子串.mm in Sources */,
 				86B723E0276F488F009EB4D9 /* 二叉树层次遍历.mm in Sources */,
 				FEB4F033279BFC3300826907 /* 剑指 Offer 37. 序列化二叉树 .mm in Sources */,

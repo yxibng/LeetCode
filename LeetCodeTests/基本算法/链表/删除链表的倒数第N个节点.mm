@@ -19,27 +19,21 @@ struct ListNode {
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        
+        ListNode *dummy = new ListNode(0, head);
+        int i = 0;
         ListNode *post = nullptr;
-        ListNode *pre = head;
-        
+        ListNode *pre = dummy;
         while (pre) {
-            if (n != 0) {
-                n--;
+            if (i == n) {
+                post = post ? post->next: dummy;
             } else {
-                post = post == nullptr ? head: post->next;
+                i++;
             }
-            pre= pre->next;
+            pre = pre->next;
         }
+        post->next = post->next->next;
+        return dummy->next;
         
-        if (!post) {
-            return head->next;
-        }
-        
-        if (post->next) {
-            post->next = post->next->next;
-        }
-        return head;
     }
 };
 

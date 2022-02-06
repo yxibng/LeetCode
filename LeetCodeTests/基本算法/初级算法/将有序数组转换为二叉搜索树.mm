@@ -29,8 +29,6 @@ class Solution {
         root->right = bst(nums, mid+1, end);
         return root;
     }
-    
-    
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         if (nums.empty()) {

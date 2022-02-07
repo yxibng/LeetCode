@@ -22,6 +22,7 @@ struct TreeNode{
 
 
 class Solution{
+public:
     vector<int> preorder(TreeNode *root) {
         if (!root) {
             return {};
@@ -33,7 +34,7 @@ class Solution{
         while (!st.empty()) {
             TreeNode *node = st.top();
             st.pop();
-            //遍历
+            //访问根节点
             ret.push_back(node->val);
             //右子树入栈
             if (node->right) {
@@ -55,7 +56,7 @@ class Solution{
         stack<TreeNode *>st;
         TreeNode *cur = root;
         vector<int>ret;
-        while (cur && !st.empty()) {
+        while (cur || !st.empty()) {
             if (cur) {
                 st.push(cur);
                 //一路向左
@@ -93,10 +94,11 @@ class Solution{
                 st.push(node->right);
             }
         }
-        ret.reserve(ret.size());
+        reverse(ret.begin(), ret.end());
         return ret;
     }
 };
+
 
 
 @interface _02202061501 : XCTestCase
@@ -114,8 +116,41 @@ class Solution{
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    TreeNode *root = new TreeNode(1);
+    
+    
+    TreeNode *left = new TreeNode(2);
+    TreeNode *right = new TreeNode(3);
+    
+    root->left = left;
+    root->right = right;
+    
+    
+    TreeNode *l1 = new TreeNode(4);
+    TreeNode *l2 = new TreeNode(5);
+    
+    left->left = l1;
+    left->right = l2;
+    
+    auto ret1 = Solution().preorder(root);
+    auto ret2 = Solution().inorder(root);
+    auto ret3 = Solution().postorder(root);
+    
+    
+    vector<int> pre {1, 2, 4, 5, 3};
+    vector<int> inorder {4, 2, 5, 1, 3};
+    vector<int> post {4, 5, 2, 3, 1};
+    
+    XCTAssert(ret1 == pre);
+    XCTAssert(ret2 == inorder);
+    XCTAssert(ret3 == post);
+    
+    
+    
+
+
+
 }
 
 - (void)testPerformanceExample {

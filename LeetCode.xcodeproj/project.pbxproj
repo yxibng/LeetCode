@@ -123,6 +123,7 @@
 		FEC2FE3B27B0C04200885574 /* 3的幂 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE3A27B0C04200885574 /* 3的幂 .mm */; };
 		FEC2FE3F27B0E1D400885574 /* 罗马数字转整数.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE3E27B0E1D400885574 /* 罗马数字转整数.mm */; };
 		FEC2FE5927B2050500885574 /* 颠倒二进制位 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE5827B2050500885574 /* 颠倒二进制位 .mm */; };
+		FEC2FE5B27B2087900885574 /* 杨辉三角.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE5A27B2087900885574 /* 杨辉三角.mm */; };
 		FED9B19227943F42008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B19127943F41008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm */; };
 		FED9B194279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B193279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm */; };
 		FED9B1962794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B1952794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm */; };
@@ -266,6 +267,7 @@
 		FEC2FE3A27B0C04200885574 /* 3的幂 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "3的幂 .mm"; sourceTree = "<group>"; };
 		FEC2FE3E27B0E1D400885574 /* 罗马数字转整数.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "罗马数字转整数.mm"; sourceTree = "<group>"; };
 		FEC2FE5827B2050500885574 /* 颠倒二进制位 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "颠倒二进制位 .mm"; sourceTree = "<group>"; };
+		FEC2FE5A27B2087900885574 /* 杨辉三角.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "杨辉三角.mm"; sourceTree = "<group>"; };
 		FED9B19127943F41008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 39. 数组中出现次数超过一半的数字.mm"; sourceTree = "<group>"; };
 		FED9B193279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 66. 构建乘积数组.mm"; sourceTree = "<group>"; };
 		FED9B1952794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 14- I. 剪绳子 .mm"; sourceTree = "<group>"; };
@@ -499,6 +501,7 @@
 				FEC2FE3A27B0C04200885574 /* 3的幂 .mm */,
 				FEC2FE3E27B0E1D400885574 /* 罗马数字转整数.mm */,
 				FEC2FE5827B2050500885574 /* 颠倒二进制位 .mm */,
+				FEC2FE5A27B2087900885574 /* 杨辉三角.mm */,
 			);
 			path = "初级算法";
 			sourceTree = "<group>";
@@ -663,6 +666,7 @@
 				86C6CAA7278A8C15007DD88B /* 剑指 Offer 40. 最小的k个数.mm in Sources */,
 				86116E6F277CA6B700598177 /* Pow202112291022.mm in Sources */,
 				FEEB5FF927A2E4EE0045E12F /* 存在重复元素.mm in Sources */,
+				FEC2FE5B27B2087900885574 /* 杨辉三角.mm in Sources */,
 				86C5DBF62786EC0A00CAACF6 /* 剑指 Offer 13. 机器人的运动范围.mm in Sources */,
 				868948C22777FD9E002B9F5A /* 剑指 Offer 05. 替换空格.mm in Sources */,
 				FEC2FD7B27AC0AD300885574 /* 移动零.mm in Sources */,

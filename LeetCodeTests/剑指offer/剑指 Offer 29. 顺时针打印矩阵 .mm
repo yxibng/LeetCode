@@ -13,59 +13,41 @@ class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
 
-        if (matrix.empty() || matrix[0].empty()) {
-            return {};
+        if (matrix.empty() || matrix[0].empty()) return {};
+
+        int rows = (int)matrix.size();
+        int columns = (int)matrix[0].size();
+
+        int left = 0, right = columns - 1;
+        int top = 0, bottom = rows -1;
+
+        vector<int>ans;
+        while (left <= right && top <= bottom) {
+            for (int i = left; i <= right; i++) {
+                //从左到右
+                ans.push_back(matrix[top][i]);
+            }
+            for (int j = top+1; j <= bottom; j++) {
+                //从上到下
+                ans.push_back(matrix[j][right]);
+            }
+
+            if (left < right && top < bottom) {
+                for (int k = right-1; k > left; k--) {
+                    //从右到左
+                    ans.push_back(matrix[bottom][k]);
+                }
+                for (int m = bottom; m > top; m--) {
+                    //从下到上
+                    ans.push_back(matrix[m][left]);
+                }
+            }
+            left++;
+            right--;
+            top++;
+            bottom--;
         }
-        
-        vector<int>ret{};
-        
-        int lt = 0; //左上边界
-        int rt = (int)matrix[0].size() - 1; //右上边界
-        int rb = (int)matrix.size() - 1;//右下边界
-        int lb = 0;//左下边界
-        while (1) {
-            
-            if (lt > rt) {
-                break;
-            }
-            
-            //从左到右
-            for (int col = lt; col <= rt; col++) {
-                ret.push_back(matrix[lt][col]);
-            }
-            
-            if (lt + 1 > rb) {
-                break;
-            }
-            
-            //从上到下
-            for (int row = lt+1 ; row <= rb; row++ ) {
-                ret.push_back(matrix[row][rt]);
-            }
-            
-            if (rt-1 < lb) {
-                break;
-            }
-            //从右到左
-            for (int col = rt-1 ; col >= lb; col --) {
-                ret.push_back(matrix[rb][col]);
-            }
-            
-            if (rb-1 < lt+1) {
-                break;
-            }
-            //从下到上
-            for (int row = rb-1; row >= lt+1; row--) {
-                ret.push_back(matrix[row][lb]);
-            }
-            //收缩
-            lt++;
-            lb++;
-            rb--;
-            rt--;
-        }
-        
-        return ret;
+        return ans;
     }
 };
 
@@ -100,6 +82,32 @@ public:
 //        {13, 14, 15, 16}
 //    };
     
+    
+    
+    {
+        vector<vector<int>> matrix {
+            vector<int>{3},
+            vector<int>{2}
+        };
+        auto ret = Solution().spiralOrder(matrix);
+        vector<int> ans {3, 2};
+        XCTAssert(ans == ret);
+    }
+
+    
+    
+    {
+        vector<vector<int>> matrix {
+            {3, 2},
+        };
+        auto ret = Solution().spiralOrder(matrix);
+        vector<int> ans {3, 2};
+        XCTAssert(ans == ret);
+    }
+
+    
+    {
+        
         vector<vector<int>> matrix {
             {1, 11},
             {2, 12},
@@ -112,9 +120,8 @@ public:
             {9, 19},
             {10, 20}
         };
-    
-    auto ret = Solution().spiralOrder(matrix);
-    
+        auto ret = Solution().spiralOrder(matrix);
+    }
     
 }
 

@@ -21,25 +21,17 @@ class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
         if (!head) return head;
-        list<ListNode *>li;
-        int val = -101;
-        while(head) {
-            if (head->val == val) {
-                while (!li.empty() && li.back()->val == val) {
-                    li.pop_back();
+        ListNode dummy = ListNode(0, head);
+        ListNode *p = &dummy;
+        while (p->next && p->next->next) {
+            if (p->next->val == p->next->next->val) {
+                int val = p->next->val;
+                while (p->next && p->next->val == val) {
+                    p->next = p->next->next;
                 }
             } else {
-                val = head->val;
-                li.push_back(head);
+                p = p->next;
             }
-            head = head->next;
-        }
-        ListNode dummy = ListNode();
-        ListNode *p = &dummy;
-        for (auto node : li) {
-            node->next = nullptr;
-            p->next = node;
-            p = p->next;
         }
         return dummy.next;
     }

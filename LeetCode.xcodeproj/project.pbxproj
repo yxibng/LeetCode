@@ -129,6 +129,7 @@
 		FEC2FE6127B24B6000885574 /* 605. 种花问题.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE6027B24B6000885574 /* 605. 种花问题.mm */; };
 		FEC2FE6327B3862A00885574 /* 接雨水.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE6227B3862A00885574 /* 接雨水.mm */; };
 		FEC2FE6527B38A1000885574 /* 199. 二叉树的右视图.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE6427B38A1000885574 /* 199. 二叉树的右视图.mm */; };
+		FEC2FE6927B4BEB500885574 /* 5. 最长回文子串.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEC2FE6827B4BEB500885574 /* 5. 最长回文子串.mm */; };
 		FED9B19227943F42008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B19127943F41008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm */; };
 		FED9B194279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B193279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm */; };
 		FED9B1962794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9B1952794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm */; };
@@ -278,6 +279,7 @@
 		FEC2FE6027B24B6000885574 /* 605. 种花问题.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "605. 种花问题.mm"; sourceTree = "<group>"; };
 		FEC2FE6227B3862A00885574 /* 接雨水.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "接雨水.mm"; sourceTree = "<group>"; };
 		FEC2FE6427B38A1000885574 /* 199. 二叉树的右视图.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "199. 二叉树的右视图.mm"; sourceTree = "<group>"; };
+		FEC2FE6827B4BEB500885574 /* 5. 最长回文子串.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "5. 最长回文子串.mm"; sourceTree = "<group>"; };
 		FED9B19127943F41008412D6 /* 剑指 Offer 39. 数组中出现次数超过一半的数字.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 39. 数组中出现次数超过一半的数字.mm"; sourceTree = "<group>"; };
 		FED9B193279444F3008412D6 /* 剑指 Offer 66. 构建乘积数组.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 66. 构建乘积数组.mm"; sourceTree = "<group>"; };
 		FED9B1952794493D008412D6 /* 剑指 Offer 14- I. 剪绳子 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 14- I. 剪绳子 .mm"; sourceTree = "<group>"; };
@@ -469,6 +471,7 @@
 				FEC2FE6027B24B6000885574 /* 605. 种花问题.mm */,
 				FEC2FE6227B3862A00885574 /* 接雨水.mm */,
 				FEC2FE6427B38A1000885574 /* 199. 二叉树的右视图.mm */,
+				FEC2FE6827B4BEB500885574 /* 5. 最长回文子串.mm */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 				86CA61D62789589700A09EDD /* 剑指 Offer 45. 把数组排成最小的数.mm in Sources */,
 				FEC2FE3927B0B81700885574 /* Fizz Buzz .mm in Sources */,
 				868948C62778203E002B9F5A /* 寻找旋转排序数组中的最小值.mm in Sources */,
+				FEC2FE6927B4BEB500885574 /* 5. 最长回文子串.mm in Sources */,
 				86DE38B12785665F00D7186B /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.mm in Sources */,
 				860F233F2772146F00A1713E /* 15.三数之和.mm in Sources */,
 				FEC2FE3F27B0E1D400885574 /* 罗马数字转整数.mm in Sources */,

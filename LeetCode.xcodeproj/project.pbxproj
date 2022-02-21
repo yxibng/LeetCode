@@ -95,6 +95,7 @@
 		FE60930927A0446C00A68E60 /* 买卖股票的最佳时机 II.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE60930827A0446C00A68E60 /* 买卖股票的最佳时机 II.mm */; };
 		FE7AC54627918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */; };
 		FE85D8B427A4353700A2A684 /* 两个数组的交集 II.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE85D8B327A4353700A2A684 /* 两个数组的交集 II.mm */; };
+		FE88D61B27C3EB3B003046BE /* 34. 在排序数组中查找元素的第一个和最后一个位置 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FE88D61A27C3EB3B003046BE /* 34. 在排序数组中查找元素的第一个和最后一个位置 .mm */; };
 		FEB4F00D279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEB4F00C279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm */; };
 		FEB4F0182799A76D00826907 /* 剑指 Offer 59 - II. 队列的最大值 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FEB4F0172799A76D00826907 /* 剑指 Offer 59 - II. 队列的最大值 .mm */; };
 		FEB4F033279BFC3300826907 /* 剑指 Offer 37. 序列化二叉树 .mm in Sources */ = {isa = PBXBuildFile; fileRef = FEB4F032279BFC3300826907 /* 剑指 Offer 37. 序列化二叉树 .mm */; };
@@ -248,6 +249,7 @@
 		FE60930827A0446C00A68E60 /* 买卖股票的最佳时机 II.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "买卖股票的最佳时机 II.mm"; sourceTree = "<group>"; };
 		FE7AC54527918E2700CE782E /* 剑指 Offer 56 - II. 数组中数字出现的次数 II .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 56 - II. 数组中数字出现的次数 II .mm"; sourceTree = "<group>"; };
 		FE85D8B327A4353700A2A684 /* 两个数组的交集 II.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "两个数组的交集 II.mm"; sourceTree = "<group>"; };
+		FE88D61A27C3EB3B003046BE /* 34. 在排序数组中查找元素的第一个和最后一个位置 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "34. 在排序数组中查找元素的第一个和最后一个位置 .mm"; sourceTree = "<group>"; };
 		FEB4F00C279848FE00826907 /* 剑指 Offer 59 - I. 滑动窗口的最大值.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 59 - I. 滑动窗口的最大值.mm"; sourceTree = "<group>"; };
 		FEB4F0172799A76D00826907 /* 剑指 Offer 59 - II. 队列的最大值 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 59 - II. 队列的最大值 .mm"; sourceTree = "<group>"; };
 		FEB4F032279BFC3300826907 /* 剑指 Offer 37. 序列化二叉树 .mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "剑指 Offer 37. 序列化二叉树 .mm"; sourceTree = "<group>"; };
@@ -481,6 +483,7 @@
 				FEC2FE6A27B4E2D200885574 /* 82. 删除排序链表中的重复元素 II.mm */,
 				FEC2FE8E27B5FBC300885574 /* 300. 最长递增子序列.mm */,
 				FEC2FECD27BBF63900885574 /* 1991. 找到数组的中间位置.mm */,
+				FE88D61A27C3EB3B003046BE /* 34. 在排序数组中查找元素的第一个和最后一个位置 .mm */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -730,6 +733,7 @@
 				86F75BEE2783F46200AA4838 /* 剑指 Offer 25. 合并两个排序的链表.mm in Sources */,
 				86960E03277EDD970026C324 /* 剑指 Offer 10- II. 青蛙跳台阶问题.mm in Sources */,
 				86B723DE276F3D36009EB4D9 /* 数组中的第K个最大元素.mm in Sources */,
+				FE88D61B27C3EB3B003046BE /* 34. 在排序数组中查找元素的第一个和最后一个位置 .mm in Sources */,
 				866AC04927773C9C00A27148 /* x 的平方根.mm in Sources */,
 				868948CA2778AEFD002B9F5A /* 154. 寻找旋转排序数组中的最小值 II.mm in Sources */,
 				86CA61D827895B9600A09EDD /* 剑指 Offer 61. 扑克牌中的顺子.mm in Sources */,
